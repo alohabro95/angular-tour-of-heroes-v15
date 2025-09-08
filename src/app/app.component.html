@@ -1,6 +1,10 @@
 <h1>{{title}}</h1>
+<app-my-counter></app-my-counter>
 <nav>
     <a routerLink="/heroes">Heroes</a>
 </nav>
 <router-outlet></router-outlet>
 <app-messages></app-messages>
+<button (click)="openForm()">Open Form</button>
+<button (click)="resetForm()">Reset Form</button>
+<app-form></app-form>
